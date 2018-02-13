@@ -1,0 +1,16 @@
+2018-02-13 10:24:17,151 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-02-13 10:24:17,764 INFO  - Installing the service with id 'nginx'
+2018-02-13 10:24:17,774 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2018-02-13 10:26:34,179 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-02-13 10:26:34,358 INFO  - Installing the service with id 'nginx'
+2018-02-13 10:26:34,369 DEBUG - Completed. Exit code is 0
+2018-02-13 10:27:06,724 INFO  - Starting ServiceWrapper in the service mode
+2018-02-13 10:27:06,759 INFO  - Starting D:\software\nginx-1.13.8\nginx-1.13.8\nginx.exe 
+2018-02-13 10:27:06,764 INFO  - Starting D:\software\nginx-1.13.8\nginx-1.13.8\nginx.exe 
+2018-02-13 10:27:07,366 INFO  - Started process 10108
+2018-02-13 10:27:07,375 DEBUG - Forwarding logs of the process System.Diagnostics.Process (nginx) to winsw.SizeBasedRollingLogAppender

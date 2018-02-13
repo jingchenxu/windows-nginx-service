@@ -1,0 +1,15 @@
+2018/02/13 09:43:14 [error] 7868#9352: *1 CreateFile() "D:\software\nginx-1.13.8\nginx-1.13.8/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/02/13 09:51:40 [notice] 4892#13232: signal process started
+2018/02/13 09:52:52 [error] 3148#11948: *4 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://101.132.158.43:3308/", host: "localhost:3308"
+2018/02/13 09:52:56 [error] 3148#11948: *4 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://101.132.158.43:3308/favicon.ico", host: "localhost:3308", referrer: "http://localhost:3308/"
+2018/02/13 09:58:34 [notice] 5904#1728: signal process started
+2018/02/13 10:01:12 [notice] 10312#2580: signal process started
+2018/02/13 10:01:12 [alert] 8512#8500: MapViewOfFileEx(65536, 2EFF0000) of file mapping "myapp1" failed (487: Attempt to access invalid address)
+2018/02/13 10:02:00 [notice] 12152#1564: signal process started
+2018/02/13 10:02:00 [alert] 8512#8500: MapViewOfFileEx(65536, 2EFF0000) of file mapping "myapp1" failed (487: Attempt to access invalid address)
+2018/02/13 10:03:29 [notice] 2472#10772: signal process started
+2018/02/13 10:03:29 [alert] 8512#8500: MapViewOfFileEx(65536, 2EFF0000) of file mapping "myapp1" failed (487: Attempt to access invalid address)
+2018/02/13 10:04:01 [notice] 1488#2664: signal process started
+2018/02/13 10:04:01 [alert] 8512#8500: MapViewOfFileEx(65536, 2EFF0000) of file mapping "myapp1" failed (487: Attempt to access invalid address)
+2018/02/13 10:05:20 [error] 9928#10252: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:3308, upstream: "101.132.158.43:3308", bytes from/to client:0/0, bytes from/to upstream:0/0
+2018/02/13 10:23:23 [notice] 7532#12700: signal process started
