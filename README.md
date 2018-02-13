@@ -4,7 +4,7 @@
 
 - attention
 
-注意修改````nginx-service.exe.config````和 ````nginx-service.xml````当中的一个路径要配置成你自己的。
+注意修改````nginx-service.exe.config```` 和 ````nginx-service.xml````当中的一个路径要配置成你自己的。
 
 安装命令(在更目录下，要以系统管理员的身份，安装完成后要到服务当中手动启动，你下次重启电脑就会自动启动了)
 ````bash
